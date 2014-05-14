@@ -1,0 +1,143 @@
+.content-nav {
+	background-color: #ccffcc;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -8px;
+	border-bottom:2px #C9E2B3 solid;
+}
+
+.content-nav .top-nav {
+	padding-top: 20px;
+}
+
+.content-subnav {
+	position: absolute;
+	z-index: 9;
+	display: block;
+	font-size: 12pt;
+	width: 90%;
+	margin-left: 5px;
+	background-color: #ccffcc;
+	border-color: #000000;
+	border-width: 0 10px 22px;
+}
+
+.content-subnav li {
+	border: 1px #C0C0C0 solid;
+	background-color: #C0C0C0;
+	float: left;
+}
+
+.content-subnav a {
+	color: #999999;
+	text-decoration: none;
+}
+
+.content-subnav .active {
+	color: #330000;
+}
+
+.content-subnav-inner {
+	padding: 3px 8px;
+	color: #fff;
+	text-align: left;
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+
+.content-subnav-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+
+.content-subnav.bottom .content-subnav-arrow {
+	top: -15px;
+	left: 10px;
+	margin-left: 15px;
+	border-width: 0 10px 20px;
+	border-bottom-color: #DDDDDD;
+}
+
+.content .inactive {
+	visibility: false;
+	display: none;
+}
+
+.content img {
+	min-width: 100%;
+}
+
+.media-list{
+	margin-top: 10px;	
+}
+
+.media-list ul li{
+	list-style: none;
+}
+.intro-text{
+	background-color: #CCFFCC;
+}
+
+@media (max-width: 320px) {
+	.content-nav {
+		height: 130px;
+	}
+	.media img{
+		width: 64px;
+	}
+	.content-subnav.bottom .content-subnav-arrow {
+		left: 20px;
+		bottom: 70px;
+	}
+	.content-nav a img {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	.content-nav {
+		height: 130px;
+	}
+	.media img{
+		width: 64px;
+	}
+	.content-nav a img {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.content-nav {
+		height: 140px;
+	}
+	.content-nav a img {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media (min-width: 769px) {
+	.content-nav {
+		height: 160px;
+	}
+	.content-nav a img {
+		width: 96px;
+		height: 96px;
+	}
+}
+@media (min-width: 1224px) {
+	.content-nav {
+		height: 190px;
+	}
+	.content-nav a img {
+		width: 119px;
+		height: 119px;
+	}
+}
+@media (min-width: 1824px) {
+}
